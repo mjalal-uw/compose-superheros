@@ -4,7 +4,7 @@ import com.example.superheros.R
 
 class HeroRepository {
 
-    fun loadHeroes(){
+    fun loadHeroes() {
         val heroesList = listOf(
             Hero(R.string.hero1, R.string.description1, R.drawable.android_superhero1),
             Hero(R.string.hero2, R.string.description2, R.drawable.android_superhero2),
